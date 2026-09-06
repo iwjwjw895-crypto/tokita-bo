@@ -1,0 +1,9 @@
+services:
+    - type: worker
+    name: soul-h4ck-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python host.py
+    envVars:
+            - key: BOT_TOKEN
+        value: 8819737080:AAHzzVyioTN4rD3UKhFwBt-XxlJg55OJaPE
